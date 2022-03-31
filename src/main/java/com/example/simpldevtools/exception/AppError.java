@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 @Data
 @AllArgsConstructor
 public class AppError {
-    private String randomString;
+    private String errorCode;
 
     private String message;
 
